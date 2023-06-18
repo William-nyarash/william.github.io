@@ -1,0 +1,407 @@
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left:40px;
+    }
+  }
+              
+                @keyframes gradientBackground {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+                foreignObject{
+                    height: 300px;
+                     width: 100%;
+                }
+                .container {
+                    font-family:
+                        system-ui,
+                        -apple-system,
+                        'Segoe UI',
+                        Roboto,
+                        Helvetica,
+                        Arial,
+                        sans-serif,
+                        'Apple Color Emoji',
+                        'Segoe UI Emoji';
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    width: 100%;
+                    height: 300px;
+                    background: linear-gradient(-45deg, #09009B, #3EDBF0, #610094);
+                    background-size: 600% 400%;
+                    animation: gradientBackground 10s ease infinite;
+                    border-radius: 10px;
+                    color: white;
+                    text-align: center;
+                    /* position: relative;
+                    top: 70px; */
+                }
+          
+          .wrapper {
+            height: 200px;
+            /*This part is important for centering*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+  
+          .activeName {
+            width: 44ch;
+            animation: typing 4s steps(37), blink .3s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+            font-family: monospace;
+            font-size: 3em;
+        }
+  
+          @keyframes typing {
+            from {
+              width: 0
+            }
+          }
+              
+          @keyframes blink {
+            50% {
+              border-color: transparent
+            }
+          }
+    
+  #nav-bar {
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    position: fixed;
+    background: rgb(185, 52, 17);
+    display: flex;
+    z-index: 1;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+    position: revert;
+    width: 500px;
+}
+.nav-link{
+        color: ghostwhite;
+    
+}
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    /* background-image: linear-gradient(133deg, navy, grey);
+    color: coral; */
+    margin-top: 0px;
+    background: linear-gradient(-45deg, #09009B, #3EDBF0, #610094);
+    background-size: 600% 400%;
+    animation: gradientBackground 10s ease infinite;
+    /* border-radius: 10px; */
+    color: white;
+}
+ .name{
+        padding-bottom: 0%;
+        padding-top: 15%;
+        font-size: 55px;
+        font-style: oblique;
+        margin-bottom: 0px;
+        position: relative;
+ }
+ .field {
+    padding-top: 0px;
+    color: blanchedalmond;
+    font-style: italic;
+    font-weight: 500;
+    position: static;
+}
+#navigation{
+    width: 310px;
+    height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 145px;
+    top: 36px;
+    text-decoration: none;
+}
+.nav-link {
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 5mm;
+}
+.nav-link:hover{
+    border: inset;
+    border-color: darkolivegreen;
+    color: blue;
+}
+.projects {
+    width: 100%;
+    height: auto;
+    background-color: slategrey;
+    position: absolute;
+}
+hr{
+    width: 412px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    border-color: chartreuse;
+}
+#head{   
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-style: oblique;
+}
+.project-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.project-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    color: mintcream;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    font-weight: 900;
+}
+#project-container{
+    width: 370px;
+    height: 373px;
+    margin-left: 5px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+#project-container2{
+        background-color: grey;
+        width: 370px;
+        height: 372px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+}
+#project-container3{
+    width: 370px;
+    height: 373px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#project-container4{
+    width: 370px;
+    height: 373px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+#project-container5{
+    width: 370px;
+    height: 373px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#project-container6{
+    width: 370px;
+    height: 373px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+.project-tile{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img.project-image{
+    width: 370px;
+    height: 298px;
+}
+#profile-link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+    color: currentcolor;
+    background-color: darkgray;
+    border-radius: 26px;
+    justify-content: center;
+    width: 110px;
+    height: 36px;
+    margin-top: 4px;
+    margin-bottom: 19px;
+}
+.profile-link-box {
+    display: flex;
+    justify-content: center;
+}
+#profile-link:hover{
+ background-color: lawngreen;
+}
+
+#contact{
+        width: 100%;
+        height: 450px;
+        background-color: gray;
+        color: rgb(4, 15, 78);
+        font-size: larger;
+}
+.contact-head{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+#contact-links {
+    text-decoration: none;
+    margin: 8px;
+    height: 28px;
+    width: 100px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    border-top: solid;
+    border-color: red;
+    background-color: lightslategray;
+}
+footer > p {
+    display: flex;
+    justify-content: flex-end;
+    font-size: revert;
+    color: darkblue;
+    width: 100%;
+}
+.warning {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+ .facebook:hover {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+    text-decoration: none;
+    margin: 8px;
+    height: 33px;
+    width: 110px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+   
+}
+.twitter:hover{
+    text-decoration: none;
+    margin: 8px;
+    height: 33px;
+    width: 110px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 4px;
+    color: rgb(5, 40, 138);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.mail:hover{
+    text-decoration: none;
+    margin: 8px;
+    height: 33px;
+    width: 110px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 4px;
+    color: rgb(5, 40, 138);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.project-title:hover{
+    color: rgb(5, 30, 100);
+    text-decoration: underline;
+    font-size: x-large;
+    font-style: oblique;
+}
+.github:hover{
+    text-decoration: none;
+    margin: 8px;
+    height: 33px;
+    width: 110px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 4px;
+    color: rgb(5, 40, 138);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.call:hover{
+    text-decoration: none;
+    margin: 8px;
+    height: 33px;
+    width: 110px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 4px;
+    color: rgb(5, 40, 138);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+body{
+    margin: 0px;
+
+}
+
+
