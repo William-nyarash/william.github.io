@@ -1,0 +1,51 @@
+hi, Am Waren 
+a web developer
+
+
+ABout 
+As an artist you not olny create forms that show
+ emotions but also you are required to mimic the 
+reality.My desire as a web developer is to be able
+ to help people from deverse backgrounds to express the 
+ideas to the world without any limitations.
+I do belive that through the use of the internet 
+anyone and everyone can  learn, grow, and also conduct 
+meaningful business that is why I seek to understand how
+ I can be part of your learning journey,growth, and even 
+more. In a period of three years I have been able to learn HTML, CSS and I can confidently say that I am capable of creating a functional, responsive web applications.
+
+Archievements
+1. responsive web desing
+2. Github pages
+3.  Coursera 4LX7U73B9RE7
+4. Coursera F8DZEVZPDKZ3
+5. Coursera WLXABQQHLLTL
+
+let me help you {help icon}
+
+Languages
+   lang  level of experience
+  `css  `intermidiate
+  `HTML `intermidiate
+  `C    `intermediate 
+  `python` beginner
+
+Hobbies
+  drawing
+  Watching movies
+  exploring the internet
+  Expunding my knowledge
+
+____________________________________________________________________________________-
+this sit was created using HTML and  CSS.
+in the near future I hope to make it a React application.
+
+Hosted by Github
+____________________________________________________________________________________-
+Contact       
+ {icon}mail
+ {icon}Github
+ {icon}tel
+
+ created by williamnyaranga 
+ ©copyright, all rights reserved
