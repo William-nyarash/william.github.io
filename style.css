@@ -132,7 +132,7 @@ a {
         justify-content: center;
 }
  .Hobbies{
-        background-image: url(pic/artbg.jpg);
+        background-image: url(artbg.jpg);
         display: grid;
         justify-items: center;
  }
@@ -144,7 +144,7 @@ a {
          height: auto;
 }
  .Languages{
-        background-image: url(pic/languagebg.jpg);
+        background-image: url(languagebg.jpg);
         display: grid;
         justify-items: center;
 }
